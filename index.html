@@ -25,17 +25,17 @@
                     
                     <div class="input">
                         <label for="first">First name *</label>
-                        <input type="text" name="firstName" id="first_name" placeholder="Asher" required>
+                        <input type="text" name="firstName" id="first_name" placeholder="John" required>
                     </div>
 
                     <div class="input">
                         <label for="last">Last name </label>
-                        <input type="text" name="lastName" id="last_name">
+                        <input type="text" name="lastName" id="last_name" placeholder="Doe">
                     </div>
 
                     <div class="input">
                         <label for="email">E-mail *</label>
-                        <input type="email" name="email" id="email" required>
+                        <input type="email" name="email" id="email" pattern=".+@example\.com" placeholder="john@email.com" required>
                     </div>
 
                     <div class="input">
@@ -45,12 +45,12 @@
 
                     <div class="input">
                         <label for="password">Password *</label>
-                        <input type="password" name="password" id="password" required>
+                        <input type="password" name="password" id="password" placeholder="Minimum 8 Characters" required>
                     </div>
 
                     <div class="input">
                         <label for="password-confirm">Confirm Password *</label>
-                        <input type="password" name="password-confirm" id="password-confirm" required>
+                        <input type="password" name="password-confirm" id="password-confirm" placeholder="Match Above" required>
                     </div>
                     <button type="submit">Create an account</button>
                 </div>

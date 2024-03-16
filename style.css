@@ -72,10 +72,16 @@ input:focus {
     border-radius: 1px;
 }
 
-input[type="password"]:focus:invalid {
+input[type="password"]:focus:invalid,
+input[type="email"]:focus:invalid {
     border-color: red;
 }
 
-input[type="password"]:focus:valid {
+input[type="password"]:focus:valid,
+input[type="email"]:focus:valid {
     border-color: green;
+}
+
+::placeholder {
+    opacity: 30%;
 }
