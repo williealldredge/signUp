@@ -46,6 +46,10 @@
     border-radius: 20px;
 }
 
+#req {
+    margin: 0;
+}
+
 .form-title {
     width: 100%;
 }
@@ -54,12 +58,24 @@
     width: 50vw;
     flex-direction: column;
     align-items: center;
-    padding-left: 20px;
     text-align: center;
+    font-family: cursive;
 }
 
 .input {
-    
     padding-bottom: 10px;
 }
 
+input:focus {
+    outline: none;
+    border-color: rgb(83, 202, 253);
+    border-radius: 1px;
+}
+
+input[type="password"]:focus:invalid {
+    border-color: red;
+}
+
+input[type="password"]:focus:valid {
+    border-color: green;
+}

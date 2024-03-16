@@ -21,35 +21,35 @@
                     
                     <p>Fill out the form below for more information!</p>
                     
-                    <p>* indicates required input</p>
+                    <p id="req">* indicates required input</p>
                     
                     <div class="input">
-                        <label for="first">First name</label>
-                        <input type="text" name="firstName" id="first_name" required>
+                        <label for="first">First name *</label>
+                        <input type="text" name="firstName" id="first_name" placeholder="Asher" required>
                     </div>
 
                     <div class="input">
-                        <label for="last">Last name</label>
+                        <label for="last">Last name </label>
                         <input type="text" name="lastName" id="last_name">
                     </div>
 
                     <div class="input">
-                        <label for="email">E-mail</label>
+                        <label for="email">E-mail *</label>
                         <input type="email" name="email" id="email" required>
                     </div>
 
                     <div class="input">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" name="phone" id="phone">
+                        <label for="phone">Phone Number </label>
+                        <input type="tel" name="phone" id="phone" placeholder="(000)000-0000">
                     </div>
 
                     <div class="input">
-                        <label for="password">Password</label>
+                        <label for="password">Password *</label>
                         <input type="password" name="password" id="password" required>
                     </div>
 
                     <div class="input">
-                        <label for="password-confirm">Confirm Password</label>
+                        <label for="password-confirm">Confirm Password *</label>
                         <input type="password" name="password-confirm" id="password-confirm" required>
                     </div>
                     <button type="submit">Create an account</button>
